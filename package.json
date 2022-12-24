@@ -10,7 +10,8 @@
     "format": "npx prettier --write .",
     "format:check": "npx prettier --check .",
     "lint": "npx eslint --ext .js,.jsx,.ts,.tsx,.vue src",
-    "lint:fix": "npx eslint --ext .js,.jsx,.ts,.tsx,.vue src --fix"
+    "lint:fix": "npx eslint --ext .js,.jsx,.ts,.tsx,.vue src --fix",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -28,6 +29,7 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.31.11",
+    "husky": "^8.0.2",
     "typescript": "*",
     "vite": "^4.0.0"
   }
