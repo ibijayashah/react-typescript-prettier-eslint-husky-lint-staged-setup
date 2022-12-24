@@ -20,7 +20,7 @@ $ pnpm create vite@latest my-react-app --template typescript
 
 ## Step 2 :: Setup prettier[](#setup_prettier)
 
-#### 2.1 install prettier as dev dependency
+#### 2.1 install prettier as dev dependency [optional]
 
 ```
 $ pnpm i --save-d save-exact prettier
